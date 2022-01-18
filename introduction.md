@@ -1,6 +1,7 @@
 # Einführung reguläre Ausdrücke
 
-[Regex Editor](http://christian-bernstein.de/regex/)
+Editor für reguläre Ausdrücke: 
+[Regex Editor](http://christian-bernstein.de/regex/). (Falls der Editor nicht funktioniert, geht auch [Regexr](https://regexr.com/))
 
 ## Cheatsheet
 
