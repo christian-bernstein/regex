@@ -21,7 +21,7 @@
 ###### Informationen von der Website [Regexr](https://regexr.com/)
 
 ## Regulärer Ausdruck für Email-Adressen
-Entwickele einen regulären Ausdruck, der einfache Email-Adressen erkennen kann. 
+Entwickle einen regulären Ausdruck, der einfache Email-Adressen erkennen kann. 
 Alle hier aufgelisteten Adressen müssen von deinem regulären Ausdruck gleichzeigig erfasst werden.
 
 ```
@@ -30,6 +30,7 @@ Max@max-mustermann.de
 max_mustermann@max-mustermann.de
 max.mustermann@gmail.fr
 ```
+**Zusatz:** Top Level Domains (de, com, uk, fr, net etc.) müssen mindestens zwei Zeichen lang sein. Beachte diese Limitierung bei deinem regulären Ausdruck.
 
 ## Regulärer Ausdruck für Usernamen
 Entwickele einen regulären Ausdruck, der Usernames erkennen kann. 
