@@ -20,6 +20,25 @@
 | ab\|cd |	match ab or cd |
 ###### Informationen von der Website [Regexr](https://regexr.com/)
 
+## Regulärer Ausdruck für Benutzernamen
+Entwickele einen regulären Ausdruck, der Benutzernamen erkennen kann. 
+Ein Benutzername ist dann korrekt, wenn er keine Leerzeichen & Sonderzeichen enthält, mindestens 3 Zeichen lang & maximal 16 zeichen lang ist.
+Alle hier aufgelisteten Benutzernamen müssen von deinem regulären Ausdruck gleichzeigig erfasst werden.
+```
+Max
+Max_Mustermann
+Max-2022
+Max.Mustermann
+Aysegül
+```
+
+Alle hier aufgelisteten Benutzernamen müssen von deinem regulären Ausdruck als inkorrekt erfasst werden (Dürfen im Editor nicht markiert werden).
+```
+M
+Max_Mustermanns_zu_langer_Benutzername
+Max Mustermann
+```
+
 ## Regulärer Ausdruck für Email-Adressen
 Entwickle einen regulären Ausdruck, der einfache Email-Adressen erkennen kann. 
 Alle hier aufgelisteten Adressen müssen von deinem regulären Ausdruck gleichzeigig erfasst werden.
@@ -31,20 +50,3 @@ max_mustermann@max-mustermann.de
 max.mustermann@gmail.fr
 ```
 **Zusatz:** Top Level Domains (de, com, uk, fr, net etc.) müssen mindestens zwei Zeichen lang sein. Beachte diese Limitierung bei deinem regulären Ausdruck.
-
-## Regulärer Ausdruck für Usernamen
-Entwickele einen regulären Ausdruck, der Usernames erkennen kann. 
-Ein Username ist dann korrekt, wenn er keine Leerzeichen & Sonderzeichen enthält, mindestens 3 Zeichen lang & maximal 12 zeichen lang ist.
-Alle hier aufgelisteten Usernames müssen von deinem regulären Ausdruck gleichzeigig erfasst werden.
-```
-asd
-```
-
-Alle hier aufgelisteten Usernames müssen von deinem regulären Ausdruck als inkorrekt erfasst werden (Dürfen im Editor nicht markiert werden).
-```
-asd
-```
-
-```
-^[a-zA-Z0-9-_]+@[a-z0-9-]+.[a-z]+$
-```
